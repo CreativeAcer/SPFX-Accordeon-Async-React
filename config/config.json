@@ -1,0 +1,20 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "spfx-accordeon-async-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spfxAccordeonAsync/SpfxAccordeonAsyncWebPart.js",
+          "manifest": "./src/webparts/spfxAccordeonAsync/SpfxAccordeonAsyncWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpfxAccordeonAsyncWebPartStrings": "lib/webparts/spfxAccordeonAsync/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PropertyControlStrings": "node_modules/@pnp/spfx-property-controls/lib/loc/{locale}.js"
+  }
+}
